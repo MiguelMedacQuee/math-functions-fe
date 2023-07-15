@@ -2,7 +2,6 @@ import { useState } from 'react'
 import guapo1 from './assets/zeni.svg'
 import guapo2 from './assets/migui.svg'
 import './App.css'
-import AxisComponent from './AxisComponent';
 
 function App() {
   const [count, setCount] = useState(0)
