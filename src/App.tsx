@@ -1,22 +1,25 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import guapo1 from './assets/zeni.svg'
+import guapo2 from './assets/migui.svg'
 import './App.css'
+import AxisComponent from './AxisComponent';
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
+      <h1>To learn and grow</h1>
       <div>
         <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
+          <img src={guapo1} className="logo" alt="React logo" />
         </a>
         <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
+          <img src={guapo2} className="logo" alt="React logo" />
         </a>
       </div>
-      <h1>Vite + React</h1>
+      <h1>King + Kona</h1>
+      {/* <AxisComponent /> */}
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
